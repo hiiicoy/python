@@ -12,6 +12,14 @@ body {
     color: #333;
     padding: 20px;
     text-align: center;
+    margin: 0;
+}
+
+/* Example of an at-rule */
+@media (max-width: 600px) {
+  body {
+    background-color: lightgray;
+  }
 }
 
 /* Header */
@@ -31,7 +39,7 @@ header h1 {
 header p {
     font-size: 1.2rem;
 }
-0
+
 nav {
     margin: 20px 0;
     text-align: center;
